@@ -14,7 +14,4 @@
         android:title="About Developer"
         app:showAsAction="ifRoom|withText"
         tools:ignore="AppCompatResource" />
-
-
-
 </menu>
