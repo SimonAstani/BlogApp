@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">HelperApp</string>
+    <string name="app_name">BlogCollection</string>
+    <string name="title_activity_welcome">BlogApp</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Design|develop from experts</string>
+    <string name="slide_1_desc">Getting familer with other project and understanding theirs project structure is the great steps in learning android.</string>
+
+    <string name="slide_2_title">JUST Blog App</string>
+    <string name="slide_2_desc">The easiest way to view all the popular individual or group blogs for android developer</string>
+
 </resources>
