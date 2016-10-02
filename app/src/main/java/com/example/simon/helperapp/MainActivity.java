@@ -29,20 +29,20 @@ public class MainActivity extends AppCompatActivity {
         webView.setWebViewClient(new Browse());
 
         //spinnergroup ko lagi ma item rakhne
-        String[] bloggroup = {"Androcid", "simon", "Androinica","Android","Android Developers ","Blog","Android Official Blog","Android UI Patterns ","Ausdroid","Team Android","Android and Me","Androidized",};
+        String[] bloggroup = {"simon", "Androcid", "Androinica","Android","Android Developers ","Blog","Android Official Blog","Android UI Patterns ","Ausdroid","Team Android","Android and Me","Androidized",};
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_spinner_item, bloggroup);
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        adapter.setDropDownViewResource(android.R.layout.simple_list_item_1);
         spinnergroup.setAdapter(adapter);
 
         spinnergroup.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 if (position == 0) {
-                    url = "http://www.androcid.com";
+                    url = "http://www.sumanastani.com.np/blog";
                     webView.loadUrl(url);
                 } else if (position == 1) {
-                    url = "http://www.sumanastani.com.np/blog";
+                    url = "http://www.androcid.com";
                     webView.loadUrl(url);
                 } else if (position == 2) {
                     url = "http://androinica.com";
@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
                 ,"Android Social Media ","Android UI/UX ","Surviving With Android","TechnoTalkative","TechnoWorm","simonAstani"};
         ArrayAdapter<String> adapterindividual = new ArrayAdapter<String>(this,
                 android.R.layout.simple_spinner_item, blogindividual);
-        adapter.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinnerIndividaul.setAdapter(adapterindividual);
 
         spinnerIndividaul.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -159,7 +159,7 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
         if (id == R.id.share) {
             share = new Intent(Intent.ACTION_SEND);
-            String message = "Hi I am using helper app to get updated with android blogs .Do follow given link to download http://wwww.sumanastani.com";
+            String message = getResources().getString(R.string.message);
             share.putExtra(android.content.Intent.EXTRA_TEXT,message);
             share.setType("text/plain");
             startActivity(Intent.createChooser(share,"share in social media"));
