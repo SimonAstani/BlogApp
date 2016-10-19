@@ -1,0 +1,5 @@
+# BlogApp
+This app contains list of blogs of indiviudal and a group  that will be helpful any developer who are seeking to learn android programming.
+Reading blogs and learning from the existing project helps learner to adapt professional coding structure.This app provides user to read top 10 individual and group blogs with simple UI. You can further fork the github link here. View Image of the app here. :)
+
+Used Linear layout with separate landscape layout for orientation. Used explicit Intent to share app with available application in share icon.(chooser) Used Implicit Intent to open my own website in browser. Splash screen added to view introduction of the app in first run. Two spinner for selecting individual and group blogs and displaying in webView. Is there one section of your assignment that you would particularly like feedback on? If so use this section to ask questions to the evaluators. What more problem can be addressed regarding these app? what similar features can be added to solve user problem.?
