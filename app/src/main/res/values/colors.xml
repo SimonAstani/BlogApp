@@ -35,4 +35,6 @@
         <item>@color/dot_dark_screen3</item>
         <item>@color/dot_dark_screen4</item>
     </array>
+
+    <color name="color_eye_change">#ed0c1b</color>
 </resources>

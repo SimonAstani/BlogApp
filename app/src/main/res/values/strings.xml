@@ -8,11 +8,12 @@
 
     <string name="slide_1_title">Design|develop from experts</string>
     <string name="slide_1_desc">Getting familier with other project and understanding theirs project structure is the beginner steps in learning android.
-    Start Exploring blogs of android from top android blogger.</string>
+    Start Exploring blogs of android from top android blogger with different opensource project links and libraries.</string>
 
     <string name="slide_2_title">JUST Blog App</string>
-    <string name="slide_2_desc">The easiest way to view all the popular individual and group blogs for android developer</string>
-    <string name="group_blog">Group Blog</string>
-    <string name="individual_blog">Individual Blog</string>
+    <string name="slide_2_desc">The easiest way to view all the popular individual,group blogs | third party libraries and
+        UI mouckup for android developer</string>
+    <string name="top">Top Blog</string>
+    <string name="other">Other Blogs</string>
 
 </resources>
