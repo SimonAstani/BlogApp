@@ -1,19 +1,34 @@
 <resources>
-    <string name="app_name">BlogCollection</string>
-    <string name="message">Hi I am using helper app to get updated with android blogs .Do follow given link to download http://wwww.sumanastani.com</string>
+    <string name="app_name">Android Blog Collection</string>
+    <string name="message">Hi I am using helper app to get updated with android blogs .Do follow given link to
+                    download http://wwww.sumanastani.com</string>
     <string name="title_activity_welcome">BlogApp</string>
     <string name="next">NEXT</string>
     <string name="skip">SKIP</string>
     <string name="start">GOT IT</string>
 
-    <string name="slide_1_title">Design|develop from experts</string>
-    <string name="slide_1_desc">Getting familier with other project and understanding theirs project structure is the beginner steps in learning android.
-    Start Exploring blogs of android from top android blogger with different opensource project links and libraries.</string>
+    <string name="slide_1_title">Android Blog Collection</string>
+    <string name="slide_1_desc">The easiest way to view the popular individual,group blogs | third party libraries and
+                    UI mockup for android developer</string>
 
-    <string name="slide_2_title">JUST Blog App</string>
-    <string name="slide_2_desc">The easiest way to view all the popular individual,group blogs | third party libraries and
-        UI mouckup for android developer</string>
+    <string name="slide_2_title">Design | develop from experts</string>
+    <string name="slide_2_desc">Getting familier with other project and understanding their code structure is the
+                    key strength to develop android skill.</string>
+
+    <string name="slide_3_title">Android Libraries</string>
+    <string name="slide_3_desc">Software libraries are an amazing way to speed up coding for Android. Leverage the hard work
+                                of other developers to make your life easier. There are tons of amazing Android libraries out
+                                there, but how to find the right one? We put together this list to give you a start.</string>
+
+    <string name="slide_4_title">Android UI/UX</string>
+    <string name="slide_4_desc">Make your app look better.Discover free templetes.Take the references.
+                              Plan and prototype amazing apps before writing any code.</string>
+
     <string name="top">Top Blog</string>
     <string name="other">Other Blogs</string>
+    <string name="libraries">Project Libraries</string>
+    <string name="AndroidUI">Android UI Mockup Templetes</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3676935401310183/1657086558</string>
+    <!--<string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>-->
 
 </resources>

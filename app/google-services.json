@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "26965188645",
+    "firebase_url": "https://android-blog-collection.firebaseio.com",
+    "project_id": "android-blog-collection",
+    "storage_bucket": "android-blog-collection.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26965188645:android:e60891ee0949abf0",
+        "android_client_info": {
+          "package_name": "sumanastani.com.np.blogapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "26965188645-bfh8eo7sjpefn6thmc2qvmqv3bc088jc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sumanastani.com.np.blogapp",
+            "certificate_hash": "45f2d825e358419a4b87eef40fa448e1205830f1"
+          }
+        },
+        {
+          "client_id": "26965188645-oeo23klq0ppd43dh82rnqb559tn7j15v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5kjyrsyoVHKonPNlfjfC-5bx-u9n_BvA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "26965188645-oeo23klq0ppd43dh82rnqb559tn7j15v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -3,18 +3,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:id="@+id/cordinatelayout"
-    tools:context="com.example.simon.helperapp.MainActivity">
+    tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:layout_weight="0.1"
+        android:layout_weight="0.2"
         android:id="@+id/blogcontent"
         android:orientation="vertical">
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/username"
+            android:layout_margin="8dp"
+            android:hint="hello world"
+            android:textSize="16dp"
+            android:textColor="#fff"
+            android:fontFamily= "serif-monospace"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -29,8 +38,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView"
-                    android:layout_width="fill_parent"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="@string/top"
@@ -51,7 +59,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:layout_width="fill_parent"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="@string/other"
@@ -80,11 +88,10 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView1"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="UI Mockup Templetes"
+                    android:text="@string/AndroidUI"
                     android:textStyle="bold" />
 
                 <Spinner
@@ -105,7 +112,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Project Libraries"
+                    android:text="@string/libraries"
                     android:textStyle="bold" />
 
                 <Spinner
@@ -132,5 +139,15 @@
             android:layout_height="match_parent" />
 
     </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
 
 </LinearLayout>
